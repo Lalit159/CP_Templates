@@ -29,6 +29,6 @@ int main() {
     a.insert(3);
     a.insert(7);
     a.insert(5);
-    cout << *a.find_by_order(4) << endl; //output is 5
+    cout << *a.find_by_order(4) << endl; //output is 7
     cout << (a.order_of_key(10)) << endl; //output is 5
 }
